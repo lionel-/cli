@@ -32,6 +32,7 @@ SEXP resize(SEXP out, R_xlen_t n) {
 //   used.
 
 SEXP glue_(SEXP x, SEXP f, SEXP open_arg, SEXP close_arg, SEXP cli_arg) {
+  Rprintf("wrong one!\n");
 
   typedef enum {
     text,
